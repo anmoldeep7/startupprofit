@@ -11,7 +11,7 @@
    <body>
       <div class="container">
          <div class="py-5 text-center">
-            <img class="d-block mx-auto mb-4" src="/static/img/CODESTUDIO_LOGO_100px.png" alt="">
+<!--             <img class="d-block mx-auto mb-4" src="/static/img/CODESTUDIO_LOGO_100px.png" alt=""> -->
             <h2>Startup Profit Prediction</h2>
             <p class="lead">Below is an example form built to predict the Startup Profits</p>
          </div>
@@ -20,9 +20,9 @@
             </div>
             <div class="col-md-8">
                <h4 class="mb-3">Startup Expenses Details</h4>
-               {% if show_hidden == True %}
+<!--                {% if show_hidden == True %}
                <div class="alert alert-success" role="alert">{{ prediction_text }}</div>
-               {% endif %}
+               {% endif %} -->
                <form action="{{ url_for('predict')}}"method="post" class="needs-validation" >
                   <div class="row">
                      <div class="col-md-6 mb-3">
@@ -48,6 +48,9 @@
                            <option value="Florida">Florida</option>
                         </select>
                      </div>
+                     {% if show_hidden == True %}
+               <div class="alert alert-success" role="alert">{{ prediction_text }}</div>
+               {% endif %}
                   </div>
                   <button class="btn btn-primary btn-lg btn-block" type="submit">Predict</button>
             </div>
@@ -55,14 +58,14 @@
             </div>
             </form>
          </div>
-         <footer class="my-5 pt-5 text-muted text-center text-small">
+<!--          <footer class="my-5 pt-5 text-muted text-center text-small">
             <p class="mb-1">&copy; 2019-2020 CODESTUDIO</p>
             <ul class="list-inline">
                <li class="list-inline-item"><a href="#">Privacy</a></li>
                <li class="list-inline-item"><a href="#">Terms</a></li>
                <li class="list-inline-item"><a href="#">Support</a></li>
             </ul>
-         </footer>
+         </footer> -->
       </div>
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
