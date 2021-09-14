@@ -4,13 +4,13 @@
 Link: [https://startupprofits.herokuapp.com/](https://startupprofits.herokuapp.com/)
 
 ## Input
-[![](https://i.imgur.com/R1g2wvC.png)](https://startupprofits.herokuapp.com/)
+[![](https://github.com/anmoldeep7/startupprofit/blob/main/Input.png)](https://startupprofits.herokuapp.com/)
 
 ## Output
-[![](https://i.imgur.com/p0aeL6c.png)](https://startupprofits.herokuapp.com/)
+[![](https://github.com/anmoldeep7/startupprofit/blob/main/Output.png)](https://startupprofits.herokuapp.com/)
 
 ## Overview
-This is a Flask web app which predicts fare of Flight ticket.
+This is a Flask web app that predicts profit of a startup.
 
 ## Flowchart 
 <p align="center">
