@@ -9,16 +9,10 @@ Link: [https://startupprofits.herokuapp.com/](https://startupprofits.herokuapp.c
 ## Output
 [![](https://github.com/anmoldeep7/startupprofit/blob/main/Output.png)](https://startupprofits.herokuapp.com/)
 
-## Overview
-This is a Flask web app that predicts profit of a startup.
-
 ## Flowchart 
 <p align="center">
   <img src="https://github.com/anmoldeep7/startupprofit/blob/main/Flowchart.png"/>
 </p>
-
-## Motivation
-What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
 
 ## Technologies Used
 
